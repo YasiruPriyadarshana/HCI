@@ -19,9 +19,26 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dbb96fbf-ac1b-460d-bfce-a53c024d513b" name="Default Changelist" comment="change merge">
+    <list default="true" id="dbb96fbf-ac1b-460d-bfce-a53c024d513b" name="Default Changelist" comment="Final Integartion">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AboutYale.html" beforeDir="false" afterPath="$PROJECT_DIR$/AboutYale.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admission.html" beforeDir="false" afterPath="$PROJECT_DIR$/Admission.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facilities.html" beforeDir="false" afterPath="$PROJECT_DIR$/Facilities.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/News.html" beforeDir="false" afterPath="$PROJECT_DIR$/News.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Publications.html" beforeDir="false" afterPath="$PROJECT_DIR$/Publications.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudyArea.html" beforeDir="false" afterPath="$PROJECT_DIR$/StudyArea.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contactus.html" beforeDir="false" afterPath="$PROJECT_DIR$/contactus.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coureses.html" beforeDir="false" afterPath="$PROJECT_DIR$/coureses.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/event.html" beforeDir="false" afterPath="$PROJECT_DIR$/event.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery1.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery2.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery3.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery4.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/housing.html" beforeDir="false" afterPath="$PROJECT_DIR$/housing.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jobRequest.html" beforeDir="false" afterPath="$PROJECT_DIR$/jobRequest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jobRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/jobRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/registration.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,6 +114,7 @@
       <workItem from="1602825061000" duration="4811000" />
       <workItem from="1602846498524" duration="356000" />
       <workItem from="1602860461807" duration="88000" />
+      <workItem from="1602862654389" duration="3288000" />
     </task>
     <task id="LOCAL-00001" summary="change merge">
       <created>1602660530380</created>
@@ -125,9 +143,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="change merge" />
-    <option name="LAST_COMMIT_MESSAGE" value="change merge" />
+    <MESSAGE value="Final Integartion" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final Integartion" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1602865866703">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1602865866703" />
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1602530075977">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
