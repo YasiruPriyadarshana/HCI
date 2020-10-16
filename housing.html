@@ -43,8 +43,8 @@
                 <li class="drop-down"><a href="">Apply</a>
                     <ul>
                         <li><a href="#">Admission</a></li>
-                        <li><a href="#">Part Time Job</a></li>
-                        <li><a href="#">Housing</a></li>
+                        <li><a href="jobRequest.html">Part Time Job</a></li>
+                        <li><a href="housing.html">Housing</a></li>
                     </ul>
                 <li class="drop-down"><a href="">Gallery</a>
                     <ul>
@@ -53,26 +53,24 @@
                         <li><a href="#">Yale BA Art</a></li>
                         <li><a href="#">Spring</a></li>
                     </ul>
-                <li><a href="#">Publications</a></li>
-                <li><a href="#">News</a></li>
+                <li><a href="Publications.html">Publications</a></li>
+                <li><a href="News.html">News</a></li>
                 <li><a href="event.html">Event</a></li>
                 <li class="drop-down"><a href="">About</a>
                     <ul>
                         <li><a href="#">About Yale</a></li>
                         <li><a href="#">Courses</a></li>
-                        <li><a href="#">Facilities</a></li>
+                        <li><a href="Facilities.html">Facilities</a></li>
                         <li><a href="#">Study Area</a></li>
                     </ul>
                 </li>
-                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
 
             </ul>
         </nav><!-- .nav-menu -->
 
-        <a href="#" class="RegisterLogin-btn scrollto">
-            <span class="d-none d-md-inline"></span>Register</a>
-        <a href="#" class="RegisterLogin-btn scrollto">
-            <span class="d-none d-md-inline"></span> Login</a>
+        <a href="./index.html" class="RegisterLogin-btn scrollto">
+            <span class="d-none d-md-inline"></span><i class="icofont-sign-out"></i> Sign Out</a>
     </div>
 </header><!-- End Header -->
 <br><br><br>
@@ -89,44 +87,44 @@
             <form class="login100-form validate-form">
                 <div class="wrap-input100 validate-input m-b-26" data-validate="First Name is required">
                     <span class="label-input100">First Name</span>
-                    <input class="input100" type="text" name="firstname" >
+                    <input class="input100" type="text" name="firstname" id="name" >
                     <span class="focus-input100"></span>
                 </div>
 
                 <div class="wrap-input100 validate-input m-b-18" data-validate = "Last Name is required">
                     <span class="label-input100">Last Name</span>
-                    <input class="input100" type="text" name="pass">
+                    <input class="input100" type="text" name="pass" id="lname">
                     <span class="focus-input100"></span>
                 </div>
 
                 <div class="wrap-input100 validate-input m-b-18" data-validate = "City is required">
                     <span class="label-input100">City</span>
-                    <input class="input100" type="text" name="pass">
+                    <input class="input100" type="text" name="pass" id="city">
                     <span class="focus-input100"></span>
                 </div>
 
                 <div class="wrap-input100 validate-input m-b-18" data-validate = "Country is required">
                     <span class="label-input100">Country</span>
-                    <input class="input100" type="text" name="pass">
+                    <input class="input100" type="text" name="pass" id="country">
                     <span class="focus-input100"></span>
                 </div>
 
                 <div class="wrap-input100 validate-input m-b-18" data-validate = "Email is required">
                     <span class="label-input100">Email</span>
-                    <input class="input100" type="email" name="pass">
+                    <input class="input100" type="email" name="pass" id="email">
                     <span class="focus-input100"></span>
                 </div>
 
                 <div class="wrap-input100 validate-input m-b-18" data-validate = "Telephone is required">
                     <span class="label-input100">Telephone</span>
-                    <input class="input100" type="number" name="pass">
+                    <input class="input100" type="number" name="pass" id="telephone">
                     <span class="focus-input100"></span>
                 </div>
 
                 <div class="wrap-input100 validate-input m-b-18">
                     <span class="label-input100">Yale Affiliation</span>
                     <div>
-                        <select class="custom_select">
+                        <select class="custom_select" id="yale">
                             <option value="">Select</option>
                             <option value="undergraduate">Undergraduate</option>
                             <option value="graduatestudent">Graduate Student</option>
@@ -141,7 +139,7 @@
                 <div class="wrap-input100 validate-input m-b-18">
                     <span class="label-input100">Desired Size</span>
                     <div>
-                        <select class="custom_select">
+                        <select class="custom_select" id="size">
                             <option value="">Select</option>
                             <option value="studio">Studio</option>
                             <option value="1bedroom">1-Bedroom</option>
@@ -156,7 +154,7 @@
 
                 <div class="wrap-input100 validate-input m-b-18" data-validate = "Date is required">
                     <span class="label-input100">Desired move indate</span>
-                    <input class="input100" type="date" name="pass" >
+                    <input class="input100" type="date" name="pass" id="indate" >
                     <span class="focus-input100"></span>
                 </div>
 
@@ -167,7 +165,7 @@
                  </div> -->
 
                 <div class="container-login100-form-btn">
-                    <button class="login100-form-btn">
+                    <button class="login100-form-btn" onclick="validation();">
                         Submit
                     </button>
                 </div>
@@ -209,6 +207,26 @@
 <script src="assets/vendor2/daterangepicker.js"></script>
 <script src="assets/vendor2/countdowntime.js"></script>
 <script src="assets/js/form.js"></script>
+
+<script type="text/javascript">
+    function validation(){
+        var name=$("#name").val();
+        var lname=$("#lname").val();
+        var city=$("#city").val();
+        var country=$("#country").val();
+        var email=$("#email").val();
+        var telephone=$("#telephone").val();
+        var yale=$("#yale").val();
+        var size=$("#size").val();
+        var indate=$("#indate").val();
+
+        if (name==''||lname==''||city==''||country==''||email==''||telephone==''||yale==''||size==''|| indate==''){
+            alert("Error");
+        }else{
+            alert("Success");
+        }
+    }
+</script>
 
 </body>
 </html>
