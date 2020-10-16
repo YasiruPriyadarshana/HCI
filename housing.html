@@ -39,38 +39,40 @@
         <!-- .nav-menu -->
         <nav class="nav-menu d-none d-lg-block">
             <ul>
-                <li><a href="index.html">Home</a></li>
+                <li class="active"><a href="index.html">Home</a></li>
                 <li class="drop-down"><a href="">Apply</a>
                     <ul>
                         <li><a href="#">Admission</a></li>
-                        <li class="active"><a href="#">Part Time Job</a></li>
-                        <li><a href="./housing.html">Housing</a></li>
+                        <li><a href="#">Part Time Job</a></li>
+                        <li><a href="#">Housing</a></li>
                     </ul>
                 <li class="drop-down"><a href="">Gallery</a>
                     <ul>
-                        <li><a href="./gallery1.html">Exhibition</a></li>
-                        <li><a href="./gallery2.html">Yale photo MFA</a></li>
-                        <li><a href="./gallery3.html">Yale BA Art</a></li>
-                        <li><a href="./gallery4.html">Spring</a></li>
+                        <li><a href="#">Exhibition</a></li>
+                        <li><a href="#">Yale photo MFA</a></li>
+                        <li><a href="#">Yale BA Art</a></li>
+                        <li><a href="#">Spring</a></li>
                     </ul>
-                <li><a href="./newsSubscription.php">Publications</a></li>
-                <li><a href="./News.html">News</a></li>
-                <li><a href="./event.html">Event</a></li>
+                <li><a href="#">Publications</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="event.html">Event</a></li>
                 <li class="drop-down"><a href="">About</a>
                     <ul>
                         <li><a href="#">About Yale</a></li>
                         <li><a href="#">Courses</a></li>
-                        <li><a href="./Facilities.html">Facilities</a></li>
+                        <li><a href="#">Facilities</a></li>
                         <li><a href="#">Study Area</a></li>
                     </ul>
                 </li>
-                <li><a href="./contactus.html">Contact Us</a></li>
+                <li><a href="#contact">Contact Us</a></li>
 
             </ul>
         </nav><!-- .nav-menu -->
 
-        <a href="./index.html" class="RegisterLogin-btn scrollto">
-            <span class="d-none d-md-inline"></span><i class="icofont-sign-out"></i> Sign Out</a>
+        <a href="#" class="RegisterLogin-btn scrollto">
+            <span class="d-none d-md-inline"></span>Register</a>
+        <a href="#" class="RegisterLogin-btn scrollto">
+            <span class="d-none d-md-inline"></span> Login</a>
     </div>
 </header><!-- End Header -->
 <br><br><br>
@@ -80,91 +82,100 @@
         <div class="wrap-login100">
             <div class="login100-form-title" style="background-image: url(assets/img/bg-01.jpg);">
 					<span class="login100-form-title-1">
-						Job REQUESTING FORM
+						HOUSING REQUESTING FORM
 					</span>
             </div>
 
-
-            <form class="login100-form validate-form" action="jobRequest.php" method="post">
+            <form class="login100-form validate-form">
                 <div class="wrap-input100 validate-input m-b-26" data-validate="First Name is required">
                     <span class="label-input100">First Name</span>
-                    <input class="input100" type="text" name="firstName" >
+                    <input class="input100" type="text" name="firstname" >
                     <span class="focus-input100"></span>
                 </div>
 
                 <div class="wrap-input100 validate-input m-b-18" data-validate = "Last Name is required">
                     <span class="label-input100">Last Name</span>
-                    <input class="input100" type="text" name="lastName">
+                    <input class="input100" type="text" name="pass">
+                    <span class="focus-input100"></span>
+                </div>
+
+                <div class="wrap-input100 validate-input m-b-18" data-validate = "City is required">
+                    <span class="label-input100">City</span>
+                    <input class="input100" type="text" name="pass">
+                    <span class="focus-input100"></span>
+                </div>
+
+                <div class="wrap-input100 validate-input m-b-18" data-validate = "Country is required">
+                    <span class="label-input100">Country</span>
+                    <input class="input100" type="text" name="pass">
                     <span class="focus-input100"></span>
                 </div>
 
                 <div class="wrap-input100 validate-input m-b-18" data-validate = "Email is required">
                     <span class="label-input100">Email</span>
-                    <input class="input100" type="email" name="email">
+                    <input class="input100" type="email" name="pass">
                     <span class="focus-input100"></span>
                 </div>
 
                 <div class="wrap-input100 validate-input m-b-18" data-validate = "Telephone is required">
                     <span class="label-input100">Telephone</span>
-                    <input class="input100" type="number" name="phone">
+                    <input class="input100" type="number" name="pass">
                     <span class="focus-input100"></span>
                 </div>
 
                 <div class="wrap-input100 validate-input m-b-18">
-                    <span class="label-input100" >Faculty</span>
+                    <span class="label-input100">Yale Affiliation</span>
                     <div>
-                        <select class="custom_select"  name="faculty">
+                        <select class="custom_select">
                             <option value="">Select</option>
-                            <option value="Grapghic Design">Grapghic Design</option>
-                            <option value="Painting/Paintmaking">Painting/Paintmaking</option>
-                            <option value="Photography">Photography</option>
-                            <option value="Sculpture">Sculpture</option>
+                            <option value="undergraduate">Undergraduate</option>
+                            <option value="graduatestudent">Graduate Student</option>
+                            <option value="faculty">Faculty</option>
+                            <option value="staff">Staff(Full Time)</option>
+                            <option value="postdoc">Post-DOC</option>
                         </select>
                     </div>
                     <span class="focus-input100"></span>
                 </div>
 
                 <div class="wrap-input100 validate-input m-b-18">
-                    <span class="label-input100">Job Type</span>
+                    <span class="label-input100">Desired Size</span>
                     <div>
-                        <select class="custom_select"  name="jobtype">
+                        <select class="custom_select">
                             <option value="">Select</option>
-                            <option value="On Campus">On Campus</option>
-                            <option value="Local Community">Local Community</option>
-                            <option value="Community Service">Community Service</option>
-                        </select>
-                    </div>
-                    <span class="focus-input100"></span>
-                </div>
-
-                <div class="wrap-input100 validate-input m-b-18">
-                    <span class="label-input100" >Job Title</span>
-                    <div>
-                        <select class="custom_select" name="jobtitle">
-                            <option value="">Select</option>
-                            <option value="Internship">Internship</option>
-                            <option value="Full Time">Full Time</option>
-                            <option value="Part Time">Part Time</option>
-                            <option value="Fresh Graduate">Fresh Graduate</option>
+                            <option value="studio">Studio</option>
+                            <option value="1bedroom">1-Bedroom</option>
+                            <option value="2bedroom">2-Bedroom</option>
+                            <option value="3bedroom">3-Bedroom</option>
+                            <option value="4bedroom">4-Bedroom</option>
+                            <option value="singlefamily">Single Family Here</option>
                         </select>
                     </div>
                     <span class="focus-input100"></span>
                 </div>
 
                 <div class="wrap-input100 validate-input m-b-18" data-validate = "Date is required">
-                    <span class="label-input100">Desired move Date</span>
-                    <input class="input100" type="date" name="date" >
+                    <span class="label-input100">Desired move indate</span>
+                    <input class="input100" type="date" name="pass" >
                     <span class="focus-input100"></span>
                 </div>
 
+                <!--
+                 <div class="container-login100-form-btn">
+                     <a href="#" class="RegisterLogin-btn scrollto">
+                         <span class="d-none d-md-inline"></span> Submit </a>
+                 </div> -->
+
                 <div class="container-login100-form-btn">
-                    <button class="login100-form-btn">Submit</button>
+                    <button class="login100-form-btn">
+                        Submit
+                    </button>
                 </div>
+
             </form>
         </div>
     </div>
 </div>
-
 <!-- ======= Footer ======= -->
 <footer id="footer">
     <div class="container">
@@ -180,7 +191,6 @@
 </footer><!-- End Footer -->
 
 <!-- Vendor JS Files -->
-<script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
 <script src="assets/vendor/jquery/jquery.min.js"></script>
 <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>

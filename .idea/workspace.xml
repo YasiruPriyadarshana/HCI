@@ -19,12 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dbb96fbf-ac1b-460d-bfce-a53c024d513b" name="Default Changelist" comment="news">
+    <list default="true" id="dbb96fbf-ac1b-460d-bfce-a53c024d513b" name="Default Changelist" comment="change merge">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facilities.html" beforeDir="false" afterPath="$PROJECT_DIR$/Facilities.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/News.html" beforeDir="false" afterPath="$PROJECT_DIR$/News.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Publications.html" beforeDir="false" afterPath="$PROJECT_DIR$/Publications.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbh.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/dbh.inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jobRequest.html" beforeDir="false" afterPath="$PROJECT_DIR$/jobRequest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jobRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/jobRequest.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,29 +35,18 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
-  <component name="Git.Pull.Settings">
-    <option name="BRANCH" value="master" />
-  </component>
   <component name="Git.Settings">
-    <excluded-from-favorite>
-      <branch-storage>
-        <map>
-          <entry type="REMOTE">
-            <value>
-              <list>
-                <branch-info repo="$PROJECT_DIR$" source="origin/master" />
-              </list>
-            </value>
-          </entry>
-        </map>
-      </branch-storage>
-    </excluded-from-favorite>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1iaIRImcXBKovXirTUHhXaUa8kv" />
@@ -72,7 +59,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/img" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -84,9 +71,6 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\YaleUniversity\assets" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\YaleUniversity" />
     </key>
@@ -107,15 +91,9 @@
       <workItem from="1602491763626" duration="22430000" />
       <workItem from="1602565054218" duration="4774000" />
       <workItem from="1602655404571" duration="1855000" />
-      <workItem from="1602660876128" duration="870000" />
-      <workItem from="1602661844140" duration="4778000" />
-      <workItem from="1602681047254" duration="619000" />
-      <workItem from="1602687119919" duration="929000" />
-      <workItem from="1602688937872" duration="133000" />
-      <workItem from="1602736159148" duration="5850000" />
-      <workItem from="1602826859178" duration="3316000" />
-      <workItem from="1602830270993" duration="395000" />
-      <workItem from="1602830710008" duration="5281000" />
+      <workItem from="1602662321587" duration="2399000" />
+      <workItem from="1602700168684" duration="624000" />
+      <workItem from="1602825061000" duration="4811000" />
     </task>
     <task id="LOCAL-00001" summary="change merge">
       <created>1602660530380</created>
@@ -124,21 +102,7 @@
       <option name="project" value="LOCAL" />
       <updated>1602660530380</updated>
     </task>
-    <task id="LOCAL-00002" summary="change merge">
-      <created>1602660653898</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1602660653898</updated>
-    </task>
-    <task id="LOCAL-00003" summary="news">
-      <created>1602664746633</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1602664746633</updated>
-    </task>
-    <option name="localTasksCounter" value="4" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,14 +122,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="change merge" />
-    <MESSAGE value="news" />
-    <option name="LAST_COMMIT_MESSAGE" value="news" />
+    <option name="LAST_COMMIT_MESSAGE" value="change merge" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602665286983">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1602665286983" />
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1602530075977">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -178,21 +137,13 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="512" y="91" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1602530516973" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1602665060073">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1602664569723">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1602665060073" />
-    <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602664666873">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1602664569723" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1602520025072">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1602664666873" />
-    <state x="425" y="187" key="run.anything.popup" timestamp="1602828509432">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1602828509432" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1602828877821">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1602828877821" />
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1602520025072" />
   </component>
 </project>

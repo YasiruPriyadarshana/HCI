@@ -39,38 +39,40 @@
         <!-- .nav-menu -->
         <nav class="nav-menu d-none d-lg-block">
             <ul>
-                <li><a href="index.html">Home</a></li>
+                <li class="active"><a href="index.html">Home</a></li>
                 <li class="drop-down"><a href="">Apply</a>
                     <ul>
                         <li><a href="#">Admission</a></li>
-                        <li class="active"><a href="#">Part Time Job</a></li>
-                        <li><a href="./housing.html">Housing</a></li>
+                        <li><a href="#">Part Time Job</a></li>
+                        <li><a href="#">Housing</a></li>
                     </ul>
                 <li class="drop-down"><a href="">Gallery</a>
                     <ul>
-                        <li><a href="./gallery1.html">Exhibition</a></li>
-                        <li><a href="./gallery2.html">Yale photo MFA</a></li>
-                        <li><a href="./gallery3.html">Yale BA Art</a></li>
-                        <li><a href="./gallery4.html">Spring</a></li>
+                        <li><a href="#">Exhibition</a></li>
+                        <li><a href="#">Yale photo MFA</a></li>
+                        <li><a href="#">Yale BA Art</a></li>
+                        <li><a href="#">Spring</a></li>
                     </ul>
-                <li><a href="./newsSubscription.php">Publications</a></li>
-                <li><a href="./News.html">News</a></li>
-                <li><a href="./event.html">Event</a></li>
+                <li><a href="#">Publications</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="event.html">Event</a></li>
                 <li class="drop-down"><a href="">About</a>
                     <ul>
                         <li><a href="#">About Yale</a></li>
                         <li><a href="#">Courses</a></li>
-                        <li><a href="./Facilities.html">Facilities</a></li>
+                        <li><a href="#">Facilities</a></li>
                         <li><a href="#">Study Area</a></li>
                     </ul>
                 </li>
-                <li><a href="./contactus.html">Contact Us</a></li>
+                <li><a href="#contact">Contact Us</a></li>
 
             </ul>
         </nav><!-- .nav-menu -->
 
-        <a href="./index.html" class="RegisterLogin-btn scrollto">
-            <span class="d-none d-md-inline"></span><i class="icofont-sign-out"></i> Sign Out</a>
+        <a href="#" class="RegisterLogin-btn scrollto">
+            <span class="d-none d-md-inline"></span>Register</a>
+        <a href="#" class="RegisterLogin-btn scrollto">
+            <span class="d-none d-md-inline"></span> Login</a>
     </div>
 </header><!-- End Header -->
 <br><br><br>
@@ -80,86 +82,44 @@
         <div class="wrap-login100">
             <div class="login100-form-title" style="background-image: url(assets/img/bg-01.jpg);">
 					<span class="login100-form-title-1">
-						Job REQUESTING FORM
+						LOGIN
 					</span>
             </div>
 
-
-            <form class="login100-form validate-form" action="jobRequest.php" method="post">
-                <div class="wrap-input100 validate-input m-b-26" data-validate="First Name is required">
-                    <span class="label-input100">First Name</span>
-                    <input class="input100" type="text" name="firstName" >
+            <form class="login100-form validate-form">
+                <div class="wrap-input100 validate-input m-b-26" data-validate="Username is required">
+                    <span class="label-input100">Username</span>
+                    <input class="input100" type="text" name="username" placeholder="Enter username">
                     <span class="focus-input100"></span>
                 </div>
 
-                <div class="wrap-input100 validate-input m-b-18" data-validate = "Last Name is required">
-                    <span class="label-input100">Last Name</span>
-                    <input class="input100" type="text" name="lastName">
+                <div class="wrap-input100 validate-input m-b-18" data-validate = "Password is required">
+                    <span class="label-input100">Password</span>
+                    <input class="input100" type="password" name="password" placeholder="Enter password">
                     <span class="focus-input100"></span>
                 </div>
 
-                <div class="wrap-input100 validate-input m-b-18" data-validate = "Email is required">
-                    <span class="label-input100">Email</span>
-                    <input class="input100" type="email" name="email">
-                    <span class="focus-input100"></span>
-                </div>
-
-                <div class="wrap-input100 validate-input m-b-18" data-validate = "Telephone is required">
-                    <span class="label-input100">Telephone</span>
-                    <input class="input100" type="number" name="phone">
-                    <span class="focus-input100"></span>
-                </div>
-
-                <div class="wrap-input100 validate-input m-b-18">
-                    <span class="label-input100" >Faculty</span>
-                    <div>
-                        <select class="custom_select"  name="faculty">
-                            <option value="">Select</option>
-                            <option value="Grapghic Design">Grapghic Design</option>
-                            <option value="Painting/Paintmaking">Painting/Paintmaking</option>
-                            <option value="Photography">Photography</option>
-                            <option value="Sculpture">Sculpture</option>
-                        </select>
+                <div class="flex-sb-m w-full p-b-30">
+                    <div class="contact100-form-checkbox">
+                        <input class="input-checkbox100" id="ckb1" type="checkbox" name="remember-me">
+                        <label class="label-checkbox100" for="ckb1">
+                            Remember me
+                        </label>
                     </div>
-                    <span class="focus-input100"></span>
-                </div>
 
-                <div class="wrap-input100 validate-input m-b-18">
-                    <span class="label-input100">Job Type</span>
                     <div>
-                        <select class="custom_select"  name="jobtype">
-                            <option value="">Select</option>
-                            <option value="On Campus">On Campus</option>
-                            <option value="Local Community">Local Community</option>
-                            <option value="Community Service">Community Service</option>
-                        </select>
+                        <a href="#" class="txt1">
+                            Forgot Password?
+                        </a>
                     </div>
-                    <span class="focus-input100"></span>
-                </div>
-
-                <div class="wrap-input100 validate-input m-b-18">
-                    <span class="label-input100" >Job Title</span>
-                    <div>
-                        <select class="custom_select" name="jobtitle">
-                            <option value="">Select</option>
-                            <option value="Internship">Internship</option>
-                            <option value="Full Time">Full Time</option>
-                            <option value="Part Time">Part Time</option>
-                            <option value="Fresh Graduate">Fresh Graduate</option>
-                        </select>
-                    </div>
-                    <span class="focus-input100"></span>
-                </div>
-
-                <div class="wrap-input100 validate-input m-b-18" data-validate = "Date is required">
-                    <span class="label-input100">Desired move Date</span>
-                    <input class="input100" type="date" name="date" >
-                    <span class="focus-input100"></span>
                 </div>
 
                 <div class="container-login100-form-btn">
-                    <button class="login100-form-btn">Submit</button>
+                    <button class="login100-form-btn">
+                        Login
+                    </button>
                 </div>
+
             </form>
         </div>
     </div>
@@ -180,7 +140,6 @@
 </footer><!-- End Footer -->
 
 <!-- Vendor JS Files -->
-<script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
 <script src="assets/vendor/jquery/jquery.min.js"></script>
 <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
