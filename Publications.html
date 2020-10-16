@@ -2,24 +2,24 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <title>Publication Page</title>
-    <meta content="" name="descriptison">
-    <meta content="" name="keywords">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Google Fonts -->
+    <link rel="stylesheet" type="text/css" href="assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/util.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/jobRequest.css">
+    <link rel="stylesheet" href="assets/css/event.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-
-    <!-- Vendor CSS Files -->
-    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
     <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
     <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
     <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
     <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
     <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <style>
         .setcolor{
             background: #f2f3f7;
@@ -81,56 +81,79 @@
         <div class="container" data-aos="fade-up">
         </div>
     </section>
-    <div class="d-flex justify-content-center form-group ">
-        <form action="./newsSubscription.php" method="POST" class="col-md-4 setcolor my-4 mx-4 rounded" >
-            <h2 class="d-flex justify-content-center my-4 ">Newsletter SignUp</h2>
 
-            <div class="container">
+
+
+        <div class="limiter">
+            <div class="container-login100">
+                <div class="wrap-login100">
+                    <div class="login100-form-title" style="background-image: url(assets/img/bg-01.jpg);">
+					<span class="login100-form-title-1">
+						Newsletter SignUp
+					</span>
+                    </div>
+        <form action="./newsSubscription.php" method="POST" class="login100-form validate-form" style="padding-left: 102px;" >
+
+            <div >
                 <div class="row my-3 form-group">
-                    <div class="col-sm mx-2"><label >Email</label></div>
+                    <div class="col-sm "><label >Email</label></div>
                     <div class="col-sm"><input class="form-control" type="text" name="email" placeholder="" required="required"></div>
                 </div>
                 <div class="row my-3">
-                    <div class="col-sm mx-2"><label >First Name</label></div>
+                    <div class="col-sm"><label >First Name</label></div>
                     <div class="col-sm"><input class="form-control"  type="text" name="fname" placeholder="" required="required"></div>
                 </div>
                 <div class="row my-3">
-                    <div class="col-sm mx-2"><label >Last Name</label></div>
+                    <div class="col-sm "><label >Last Name</label></div>
                     <div class="col-sm"><input class="form-control"  type="text" name="lanme" placeholder="" required="required"></div>
                 </div>
                 <div class="row my-3">
-                    <div class="col-sm mx-2"><label >What is your graduation year</label></div>
+                    <div class="col-sm"><label >What is your graduation year</label></div>
                     <div class="col-sm"><input class="form-control"  type="text" name="gdyear" placeholder="" required="required"></div>
                 </div>
 
             </div>
-            <label class="mx-5">Are you alum?</label>
-            <div class="custom-control custom-radio custom-control-inline mx-3 ">
 
-                <input type="radio" id="customRadio1" name='alum' value="yes"  class="custom-control-input">
-                <label class="custom-control-label" for="customRadio1">Yes</label>
+            <div  style="padding-left: 50px;" class="my-4">
+                <label >Are you alum?</label>
+                <div class="custom-control custom-radio custom-control-inline mx-5">
+
+                    <input type="radio" id="customRadio1" name='alum' value="yes"  class="custom-control-input">
+                    <label class="custom-control-label" for="customRadio1">Yes</label>
+
+                </div>
+                <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="customRadio2" name='alum' value="no" class="custom-control-input">
+                    <label class="custom-control-label" for="customRadio2">No</label>
+                </div>
+            </div>
+            <div class="my-5">
 
             </div>
-            <div class="custom-control custom-radio custom-control-inline">
-                <input type="radio" id="customRadio2" name='alum' value="no" class="custom-control-input">
-                <label class="custom-control-label" for="customRadio2">No</label>
-            </div>
+            <p> -- I would like to recieve -- </p>
+            <div style="padding-left: 60px;">
 
-            <p class="mx-4 my-3"> -- I would like to recieve -- </p>
-            <div class="mx-3 my-2">
-                <label><input type="checkbox" name='cb1' value="1" required="required"> School of Art in the world biggest</label>
+                <div class="mx-5 my-2">
+
+                    <label><input type="checkbox" name='cb1' value="1" required="required"> School of Art in the world biggest</label>
+                </div>
+                <div class="mx-5 my-2">
+                    <label><input type="checkbox"  name='cb2' value="1"  > News from new haven</label>
+                </div>
+                <div class="mx-5 my-2">
+                    <label><input type="checkbox"  name='cb3' value="1" > Week at SOA_2020-2021 Academic Year</label>
+                </div>
+
+                <div class="container-login100-form-btn">
+                    <button class="login100-form-btn">Subscribe</button>
+                </div>
             </div>
-            <div class="mx-3 my-2">
-                <label><input type="checkbox"  name='cb2' value="1"  > News from new haven</label>
-            </div>
-            <div class="mx-3 my-2">
-                <label><input type="checkbox"  name='cb3' value="1" > Week at SOA_2020-2021 Academic Year</label>
-            </div>
-            <div class=" text-center my-4"><button type="submit" name="submit" class="btn btn-success custom-bt">Subscribe</button></div>
 
         </form>
 
     </div>
+            </div>
+            </div>
 
 
 
