@@ -21,8 +21,9 @@
   <component name="ChangeListManager">
     <list default="true" id="dbb96fbf-ac1b-460d-bfce-a53c024d513b" name="Default Changelist" comment="change merge">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jobRequest.html" beforeDir="false" afterPath="$PROJECT_DIR$/jobRequest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jobRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/jobRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contactus.html" beforeDir="false" afterPath="$PROJECT_DIR$/contactus.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/housing.html" beforeDir="false" afterPath="$PROJECT_DIR$/housing.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +60,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -72,6 +73,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\hcifinal" />
       <recent name="C:\xampp\htdocs\YaleUniversity" />
     </key>
   </component>
@@ -94,6 +96,7 @@
       <workItem from="1602662321587" duration="2399000" />
       <workItem from="1602700168684" duration="624000" />
       <workItem from="1602825061000" duration="4811000" />
+      <workItem from="1602849527606" duration="9472000" />
     </task>
     <task id="LOCAL-00001" summary="change merge">
       <created>1602660530380</created>
