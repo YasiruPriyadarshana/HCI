@@ -28,6 +28,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
+
+
 </head>
 <body>
 <!-- ======= Header ======= -->
@@ -43,8 +45,8 @@
                 <li class="drop-down"><a href="">Apply</a>
                     <ul>
                         <li><a href="#">Admission</a></li>
-                        <li><a href="#">Part Time Job</a></li>
-                        <li><a href="#">Housing</a></li>
+                        <li><a href="jobRequest.html">Part Time Job</a></li>
+                        <li><a href="housing.html">Housing</a></li>
                     </ul>
                 <li class="drop-down"><a href="">Gallery</a>
                     <ul>
@@ -53,8 +55,8 @@
                         <li><a href="#">Yale BA Art</a></li>
                         <li><a href="#">Spring</a></li>
                     </ul>
-                <li><a href="#">Publications</a></li>
-                <li><a href="#">News</a></li>
+                <li><a href="Publications.html">Publications</a></li>
+                <li><a href="News.html">News</a></li>
                 <li><a href="event.html">Event</a></li>
                 <li class="drop-down"><a href="">About</a>
                     <ul>
@@ -64,15 +66,14 @@
                         <li><a href="#">Study Area</a></li>
                     </ul>
                 </li>
-                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
 
             </ul>
         </nav><!-- .nav-menu -->
 
-        <a href="#" class="RegisterLogin-btn scrollto">
+        <a href="registration.html" class="RegisterLogin-btn scrollto">
             <span class="d-none d-md-inline"></span>Register</a>
-        <a href="#" class="RegisterLogin-btn scrollto">
-            <span class="d-none d-md-inline"></span> Login</a>
+
     </div>
 </header><!-- End Header -->
 <br><br><br>
@@ -89,13 +90,13 @@
             <form class="login100-form validate-form">
                 <div class="wrap-input100 validate-input m-b-26" data-validate="Username is required">
                     <span class="label-input100">Username</span>
-                    <input class="input100" type="text" name="username" placeholder="Enter username">
+                    <input class="input100" type="text" name="username" placeholder="Enter username" id="uname">
                     <span class="focus-input100"></span>
                 </div>
 
                 <div class="wrap-input100 validate-input m-b-18" data-validate = "Password is required">
                     <span class="label-input100">Password</span>
-                    <input class="input100" type="password" name="password" placeholder="Enter password">
+                    <input class="input100" type="password" name="password" placeholder="Enter password" id="password">
                     <span class="focus-input100"></span>
                 </div>
 
@@ -114,18 +115,24 @@
                     </div>
                 </div>
 
+                <!--   <div  class="container-login100-form-btn" onclick="validation();">
+                       <button class="login100-form-btn">
+                           <a href="homelogin.html"> Login</a>
+                       </button>
+
+                   </div>-->
                 <div class="container-login100-form-btn">
-                    <button class="login100-form-btn">
-                        Login
-                    </button>
+                    <button class="login100-form-btn" onclick="validation();">Login</button>
                 </div>
 
-            </form>
-        </div>
-    </div>
-</div>
 
-<!-- ======= Footer ======= -->
+
+               </form>
+           </div>
+       </div>
+   </div>
+
+   <!-- ======= Footer ======= -->
 <footer id="footer">
     <div class="container">
         <div class="copyright">
@@ -158,6 +165,22 @@
 <script src="assets/vendor2/daterangepicker.js"></script>
 <script src="assets/vendor2/countdowntime.js"></script>
 <script src="assets/js/form.js"></script>
+
+
+<script type="text/javascript">
+    function validation(){
+        var username=$("#uname").val();
+        var password=$("#password").val();
+
+
+        if (username==''||password==''){
+            alert("Error");
+        }else{
+            alert("Success");
+        }
+
+    }
+</script>
 
 </body>
 </html>

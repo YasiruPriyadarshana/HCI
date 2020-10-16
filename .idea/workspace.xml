@@ -20,7 +20,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dbb96fbf-ac1b-460d-bfce-a53c024d513b" name="Default Changelist" comment="change merge">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jobRequest.html" beforeDir="false" afterPath="$PROJECT_DIR$/jobRequest.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jobRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/jobRequest.php" afterDir="false" />
     </list>
@@ -72,6 +71,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\HCI\assets\img" />
+      <recent name="E:\HCI" />
       <recent name="C:\xampp\htdocs\YaleUniversity" />
     </key>
   </component>
@@ -94,6 +95,8 @@
       <workItem from="1602662321587" duration="2399000" />
       <workItem from="1602700168684" duration="624000" />
       <workItem from="1602825061000" duration="4811000" />
+      <workItem from="1602846498524" duration="356000" />
+      <workItem from="1602860461807" duration="88000" />
     </task>
     <task id="LOCAL-00001" summary="change merge">
       <created>1602660530380</created>
