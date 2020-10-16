@@ -19,6 +19,5 @@ VALUES ('$firstname', '$lastname', '$email',$phone,'$faculty', '$jobtype','$jobt
 
 mysqli_query($conn,$sql);
 
-echo "<script type='text/javascript'>alert('Submitted Successfully !!')</script>";
 $conn->close();
 ?>

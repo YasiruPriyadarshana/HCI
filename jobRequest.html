@@ -84,36 +84,35 @@
 					</span>
             </div>
 
-
-            <form class="login100-form validate-form" action="jobRequest.php" method="post">
+            <form class="login100-form validate-form" method="post">
                 <div class="wrap-input100 validate-input m-b-26" data-validate="First Name is required">
                     <span class="label-input100">First Name</span>
-                    <input class="input100" type="text" name="firstName" >
+                    <input class="input100" type="text" name="firstName" id="firstName">
                     <span class="focus-input100"></span>
                 </div>
 
                 <div class="wrap-input100 validate-input m-b-18" data-validate = "Last Name is required">
                     <span class="label-input100">Last Name</span>
-                    <input class="input100" type="text" name="lastName">
+                    <input class="input100" type="text" name="lastName" id="lastName">
                     <span class="focus-input100"></span>
                 </div>
 
                 <div class="wrap-input100 validate-input m-b-18" data-validate = "Email is required">
                     <span class="label-input100">Email</span>
-                    <input class="input100" type="email" name="email">
+                    <input class="input100" type="email" name="email" id="email">
                     <span class="focus-input100"></span>
                 </div>
 
                 <div class="wrap-input100 validate-input m-b-18" data-validate = "Telephone is required">
                     <span class="label-input100">Telephone</span>
-                    <input class="input100" type="number" name="phone">
+                    <input class="input100" type="number" name="phone" id="phone">
                     <span class="focus-input100"></span>
                 </div>
 
                 <div class="wrap-input100 validate-input m-b-18">
                     <span class="label-input100" >Faculty</span>
                     <div>
-                        <select class="custom_select"  name="faculty">
+                        <select class="custom_select"  name="faculty" id="faculty">
                             <option value="">Select</option>
                             <option value="Grapghic Design">Grapghic Design</option>
                             <option value="Painting/Paintmaking">Painting/Paintmaking</option>
@@ -127,7 +126,7 @@
                 <div class="wrap-input100 validate-input m-b-18">
                     <span class="label-input100">Job Type</span>
                     <div>
-                        <select class="custom_select"  name="jobtype">
+                        <select class="custom_select"  name="jobtype" id="jobtype">
                             <option value="">Select</option>
                             <option value="On Campus">On Campus</option>
                             <option value="Local Community">Local Community</option>
@@ -140,7 +139,7 @@
                 <div class="wrap-input100 validate-input m-b-18">
                     <span class="label-input100" >Job Title</span>
                     <div>
-                        <select class="custom_select" name="jobtitle">
+                        <select class="custom_select" name="jobtitle" id="jobtitle">
                             <option value="">Select</option>
                             <option value="Internship">Internship</option>
                             <option value="Full Time">Full Time</option>
@@ -153,12 +152,12 @@
 
                 <div class="wrap-input100 validate-input m-b-18" data-validate = "Date is required">
                     <span class="label-input100">Desired move Date</span>
-                    <input class="input100" type="date" name="date" >
+                    <input class="input100" type="date" name="date" id="date">
                     <span class="focus-input100"></span>
                 </div>
 
                 <div class="container-login100-form-btn">
-                    <button class="login100-form-btn">Submit</button>
+                    <button class="login100-form-btn" onclick="validation();">Submit</button>
                 </div>
             </form>
         </div>
@@ -200,5 +199,24 @@
 <script src="assets/vendor2/countdowntime.js"></script>
 <script src="assets/js/form.js"></script>
 
+<script type="text/javascript">
+    function validation(){
+        var firstName= $("#firstName").val();
+        var lastName= $("#lastName").val();
+        var email= $("#email").val();
+        var phone= $("#phone").val();
+        var faculty= $("#faculty").val();
+        var jobtype= $("#jobtitle").val();
+        var jobtitle= $("#jobtitle").val();
+        var date=$("#date").val();
+
+        if(firstName==''||lastName==''||email==''||phone==''||faculty==''||jobtype==''||jobtitle==''||date==''){
+            alert("Error");
+        }
+        else{
+            alert("Success");
+        }
+    }
+</script>
 </body>
 </html>
