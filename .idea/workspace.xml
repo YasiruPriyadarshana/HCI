@@ -20,10 +20,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dbb96fbf-ac1b-460d-bfce-a53c024d513b" name="Default Changelist" comment="change merge">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contactus.html" beforeDir="false" afterPath="$PROJECT_DIR$/contactus.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/housing.html" beforeDir="false" afterPath="$PROJECT_DIR$/housing.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/Images/Picture12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/Images/Picture13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/Images/Picture14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/Images/Picture15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/Images/Picture16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/Images/Picture17.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/gallery/Picture10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/Images/Picture10.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/gallery/Picture11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/gallery/Picture2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/Images/Picture2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/gallery/Picture3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/Images/Picture3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/gallery/Picture4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/Images/Picture4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/gallery/Picture6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/Images/Picture6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/gallery/Picture7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/Images/Picture7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/gallery/bg-01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/Images/bg-01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery1.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery2.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery3.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery4.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery4.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +74,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/img" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -73,7 +87,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\hcifinal" />
+      <recent name="E:\HCI\assets\img" />
+      <recent name="E:\HCI" />
       <recent name="C:\xampp\htdocs\YaleUniversity" />
     </key>
   </component>
@@ -96,7 +111,7 @@
       <workItem from="1602662321587" duration="2399000" />
       <workItem from="1602700168684" duration="624000" />
       <workItem from="1602825061000" duration="4811000" />
-      <workItem from="1602849527606" duration="9472000" />
+      <workItem from="1602846498524" duration="356000" />
     </task>
     <task id="LOCAL-00001" summary="change merge">
       <created>1602660530380</created>
