@@ -20,15 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dbb96fbf-ac1b-460d-bfce-a53c024d513b" name="Default Changelist" comment="change merge">
-      <change afterPath="$PROJECT_DIR$/assets/img/gallery/Picture10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/gallery/Picture11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/gallery/Picture2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/gallery/Picture3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/gallery/Picture4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/gallery/Picture6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/gallery/Picture7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/gallery/bg-01.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jobRequest.html" beforeDir="false" afterPath="$PROJECT_DIR$/jobRequest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jobRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/jobRequest.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,6 +93,7 @@
       <workItem from="1602655404571" duration="1855000" />
       <workItem from="1602662321587" duration="2399000" />
       <workItem from="1602700168684" duration="624000" />
+      <workItem from="1602825061000" duration="4811000" />
     </task>
     <task id="LOCAL-00001" summary="change merge">
       <created>1602660530380</created>
