@@ -40,5 +40,7 @@ VALUES ('$email', '$fname', '$lanme',$gdyear,'$alum',$receive)";
 
 mysqli_query($conn,$sql);
 
+header("Location: ../YaleUniversity/Publications.html?Subscription=success");
+
 $conn->close();
 ?>
